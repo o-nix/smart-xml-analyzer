@@ -12,7 +12,7 @@ plugins {
   id 'java'
 }
 
-group 'me.o_nix.testcases'
+group 'me.o_nix.assignments'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
@@ -42,7 +42,7 @@ dependencies {
 
 jar {
   manifest {
-    attributes 'Main-Class': 'me.o_nix.agileengine.html_selectors.Application'
+    attributes 'Main-Class': 'me.o_nix.assignments.html_selectors.Application'
   }
 }
 
