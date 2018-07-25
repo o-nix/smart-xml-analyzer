@@ -25,13 +25,13 @@ Write a program that analyzes HTML and finds a specific element, even after chan
 
 ## Expected Deliverables
 
-* Binary version of the algorithm is under [build/libs](build/libs) folder (i.e. [dist.jar-1.0-SNAPSHOT-all.jar](build/libs/dist.jar-1.0-SNAPSHOT-all.jar))
+* Binary version of the algorithm is under [build/libs](build/libs) folder (i.e. [dist-1.0-SNAPSHOT-all.jar](build/libs/dist-1.0-SNAPSHOT-all.jar))
 
 * Binary can be built by using command `./gradlew shadowJar`
 
 * Output for sample pages:
 ```bash
-$ java -jar build/libs/dist.jar-1.0-SNAPSHOT-all.jar sample-files/origin.html sample-files/other-1.html
+$ java -jar build/libs/dist-1.0-SNAPSHOT-all.jar sample-files/origin.html sample-files/other-1.html
 22:10:49.680 [main] DEBUG Application - Selector is: #make-everything-ok-button
 22:10:49.683 [main] DEBUG Application - Original path is: sample-files/origin.html
 22:10:49.683 [main] DEBUG Application - Other path is: sample-files/other-1.html
@@ -41,7 +41,7 @@ $ java -jar build/libs/dist.jar-1.0-SNAPSHOT-all.jar sample-files/origin.html sa
 ```
 
 ```bash
-$ java -jar build/libs/dist.jar-1.0-SNAPSHOT-all.jar sample-files/origin.html sample-files/other-2.html
+$ java -jar build/libs/dist-1.0-SNAPSHOT-all.jar sample-files/origin.html sample-files/other-2.html
 22:11:47.308 [main] DEBUG Application - Selector is: #make-everything-ok-button
 22:11:47.310 [main] DEBUG Application - Original path is: sample-files/origin.html
 22:11:47.311 [main] DEBUG Application - Other path is: sample-files/other-2.html
@@ -51,7 +51,7 @@ $ java -jar build/libs/dist.jar-1.0-SNAPSHOT-all.jar sample-files/origin.html sa
 ```
 
 ```bash
-$ java -jar build/libs/dist.jar-1.0-SNAPSHOT-all.jar sample-files/origin.html sample-files/other-3.html
+$ java -jar build/libs/dist-1.0-SNAPSHOT-all.jar sample-files/origin.html sample-files/other-3.html
 22:12:12.450 [main] DEBUG Application - Selector is: #make-everything-ok-button
 22:12:12.454 [main] DEBUG Application - Original path is: sample-files/origin.html
 22:12:12.455 [main] DEBUG Application - Other path is: sample-files/other-3.html
@@ -61,7 +61,7 @@ $ java -jar build/libs/dist.jar-1.0-SNAPSHOT-all.jar sample-files/origin.html sa
 ```
 
 ```bash
-$ java -jar build/libs/dist.jar-1.0-SNAPSHOT-all.jar sample-files/origin.html sample-files/other-4.html
+$ java -jar build/libs/dist-1.0-SNAPSHOT-all.jar sample-files/origin.html sample-files/other-4.html
 22:12:36.723 [main] DEBUG Application - Selector is: #make-everything-ok-button
 22:12:36.727 [main] DEBUG Application - Original path is: sample-files/origin.html
 22:12:36.727 [main] DEBUG Application - Other path is: sample-files/other-4.html

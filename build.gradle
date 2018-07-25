@@ -47,5 +47,5 @@ jar {
 }
 
 shadowJar {
-  baseName = 'dist.jar'
+  baseName = 'dist'
 }
